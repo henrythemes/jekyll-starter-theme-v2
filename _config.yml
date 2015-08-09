@@ -15,11 +15,11 @@ url:   'http://planetjekyll.github.io/jekyll-starter-theme-v2'
 
 
 nav:
-- { title: 'Welcome',              href: '/' }
-- { title: 'Page Two',             href: '/two.html' }
-- { title: 'Page Three',           href: '/three.html' }
+- { title: 'Welcome',              href: '/jekyll-starter-theme-v2/' }
+- { title: 'Page Two',             href: '/jekyll-starter-theme-v2/two.html' }
+- { title: 'Page Three',           href: '/jekyll-starter-theme-v2/three.html' }
 - { title: 'Questions? Comments?', href: 'http://groups.google.com/group/wwwmake' }
-- { title: 'About',                href: 'https://github.com/planetjekyll/jekyll-starter-theme' }
+- { title: 'About',                href: 'https://github.com/planetjekyll/jekyll-starter-theme-v2' }
 
 
 #########################
