@@ -6,7 +6,7 @@ a more "basic" version. The V2 includes:
 
 - Shared (common) template/page building blocks using `_includes` e.g. `head.html`, `header.html`, `footer.html` etc.
 - CSS preprocessing using Sass/SCSS e.g. `_settings.scss` with `$link-color` etc.
-- Nav(igation) menu (auto-)built using a configuration / datafile block
+- Nav(igation) menu (auto-)built using a configuration / data block
 - And more
 
 
@@ -15,11 +15,11 @@ a more "basic" version. The V2 includes:
 ├── _includes                    # shared (common) building blocks
 |   ├── head.html                #   page head e.g. meta, stylesheet, etc.
 |   ├── header.html              #   header e.g. title, nav menu, etc.
-|   └── footer.html              #   footer 
+|   └── footer.html              #   footer
 ├── _layouts
 |   └── default.html             # master layout template
 ├── css
-|   ├── _settings.scss           # style settings/variables e.g. $link-color, etc.
+|   ├── _settings.scss           #   style settings/variables e.g. $link-color, etc.
 |   └── style.scss               # styles in sass/scss
 ├── three.html                   # another sample page (in hypertext markup e.g. html)
 ├── two.md                       # another sample page (in markdown e.g. md)
@@ -31,7 +31,7 @@ Becomes
 ```
 └── _site                        # output build folder; site gets generated here
     ├── css
-    |   └── style.css            # styles for pages (preprocess with sass/scsss)
+    |   └── style.css            # styles for pages (preprocessed with sass/scsss)
     ├── three.html               # another sample page
     ├── two.html                 # another sample page 
     └── index.html               # index (start) sample page
@@ -61,7 +61,7 @@ Step 3: Add the required front matter to `css/style.scss` and include (import) t
 
 ```
 ---
-###  turn on pre-processing by starting with required front matter block
+###  turn on preprocessing by starting with required front matter block
 ---
 
 @import 'settings';
@@ -82,7 +82,7 @@ a, a:visited {
 
 ### Shared (Common) Page/Template Building Blocks Using `_includes`
 
-Use shared building blocks to split-up the all-in-one default master layout page e.g.
+Use shared building blocks to split-up the all-in-one default master layout page e.g.:
 
 ``` html
 <!DOCTYPE html>
@@ -110,7 +110,7 @@ and `footer.html`.
 
 ### Nav(igation) Menu (Auto-)Built Using a Configuration Block
 
-Instead of "hard-coding" the navigation menu e.g.
+Instead of "hard-coding" the navigation menu e.g.:
 
 ``` html
 <div id="nav">
@@ -122,7 +122,7 @@ Instead of "hard-coding" the navigation menu e.g.
 </div>
 ```
 
-Let's use a configuration blog e.g.
+Let's use a configuration / data block e.g.:
 
 ``` yaml
 nav:
@@ -134,7 +134,7 @@ nav:
 
 ```
 
-And (auto-build) the navigation menu using a macro e.g.
+And (auto-)build the navigation menu using a macro e.g.:
 
 ``` html
 <div id="nav">
@@ -150,9 +150,10 @@ And (auto-build) the navigation menu using a macro e.g.
 See a live demo @ [`planetjekyll.github.io/jekyll-starter-theme-v2` »](http://planetjekyll.github.io/jekyll-starter-theme-v2)
 
 
-## More Themes
+### More Themes
 
-See the [Dr. Jekyll's Themes](https://drjekyllthemes.github.io) Directory.
+See the [Dr. Jekyll's Themes](https://drjekyllthemes.github.io) directory.
+
 
 
 ## Meta
