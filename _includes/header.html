@@ -1,0 +1,19 @@
+
+<div id="header">
+  <span class='big'>{{ site.title }}</span>
+  <span class='small'>{{ site.subtitle }}</span>
+</div>
+
+<div id="nav">
+  <a href="{{ site.path }}/index.html">Welcome</a> •
+  <a href="{{ site.path }}/two.html">Page Two</a> •
+  <a href="{{ site.path }}/three.html">Page Three</a> •
+  <a href="http://groups.google.com/group/wwwmake">Questions? Comments?</a> •
+  <a href="https://github.com/planetjekyll/jekyll-starter-theme">About</a>
+</div>
+
+<div id="nav">
+{% for item in site.nav %}
+  <a href="{{ item.href}}">{{ item.title }}</a>  •
+{% endfor %}
+</div>

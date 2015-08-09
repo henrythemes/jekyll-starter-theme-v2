@@ -1,0 +1,54 @@
+---
+###
+# note: will result in an all-in-one-file stylesheet e.g. style.css
+#   in _config.yml add:
+#     sass:
+#       sass_dir: css
+#       style:    expanded
+---
+
+
+@import 'settings';
+
+/*
+ * css styles go here
+ */
+
+body {
+  font-family: $font-family;
+}
+
+a, a:visited {
+  color: $link-color;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+#header {
+  padding: 4px;
+}
+
+#header .big {
+  font-size:   140%;
+  font-weight: bold;
+}
+
+#header .small {
+  font-size:    90%;
+  color:        grey;
+  padding-left: 15px;
+}
+
+#nav {
+  padding: 6px;
+}
+
+
+
+

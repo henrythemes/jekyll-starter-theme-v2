@@ -1,0 +1,36 @@
+###########
+# site.title
+
+title:    'Planet Jekyll Starter Theme V2'
+subtitle: 'Another Static Site Quick Starter Theme'
+
+
+## note:
+#  use site.path in your templates to make it work for both protocols e.g. http and https
+#  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
+#    note: for root path use empty string e.g. '' - do NOT include trailing slash e.g. /
+
+path:  '/jekyll-starter-theme-v2'
+url:   'http://planetjekyll.github.io/jekyll-starter-theme-v2'
+
+
+nav:
+- { title: 'Welcome',              href: '/' }
+- { title: 'Page Two',             href: '/two.html' }
+- { title: 'Page Three',           href: '/three.html' }
+- { title: 'Questions? Comments?', href: 'http://groups.google.com/group/wwwmake' }
+- { title: 'About',                href: 'https://github.com/planetjekyll/jekyll-starter-theme' }
+
+
+#########################
+# more settings
+
+markdown: kramdown
+
+sass:
+  sass_dir: css
+  style: expanded
+
+exclude:
+- README.md
+
