@@ -154,6 +154,10 @@ See a live demo @ [`planetjekyll.github.io/jekyll-starter-theme-v2` »](http://p
 
 See the [Dr. Jekyll's Themes](https://drjekyllthemes.github.io) directory.
 
+### More Quick Starter Wizard Scripts
+
+See the [Mr. Hyde's Scripts](https://github.com/mrhydescripts/scripts) library.
+
 
 
 ## Meta
