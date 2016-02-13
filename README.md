@@ -1,7 +1,7 @@
 # Jekyll Starter Theme V2
 
 A more "advanced" starter theme, see the 
-[Planet Jekyll Starter Theme V1](https://github.com/planetjekyll/jekyll-starter-theme) for
+[Jekyll Starter Theme V1](https://github.com/henrythemes/jekyll-starter-theme) for
 a more "basic" version. The V2 includes:
 
 - Shared (common) template/page building blocks using `_includes` e.g. `head.html`, `header.html`, `footer.html` etc.
@@ -118,7 +118,7 @@ Instead of "hard-coding" the navigation menu e.g.:
   <a href="{{ site.path }}/two.html">Page Two</a>
   <a href="{{ site.path }}/three.html">Page Three</a>
   <a href="http://groups.google.com/group/wwwmake">Questions? Comments?</a>
-  <a href="https://github.com/planetjekyll/jekyll-starter-theme">About</a>
+  <a href="https://github.com/henrythemes/jekyll-starter-theme">About</a>
 </div>
 ```
 
@@ -130,7 +130,7 @@ nav:
 - { title: 'Page Two',             href: '/jekyll-starter-theme-v2/two.html' }
 - { title: 'Page Three',           href: '/jekyll-starter-theme-v2/three.html' }
 - { title: 'Questions? Comments?', href: 'http://groups.google.com/group/wwwmake' }
-- { title: 'About',                href: 'https://github.com/planetjekyll/jekyll-starter-theme-v2' }
+- { title: 'About',                href: 'https://github.com/henrythemes/jekyll-starter-theme-v2' }
 
 ```
 
@@ -147,7 +147,7 @@ And (auto-)build the navigation menu using a macro e.g.:
 
 ### Live Demo
 
-See a live demo @ [`planetjekyll.github.io/jekyll-starter-theme-v2` »](http://planetjekyll.github.io/jekyll-starter-theme-v2)
+See a live demo @ [`henrythemes.github.io/jekyll-starter-theme-v2` »](http://henrythemes.github.io/jekyll-starter-theme-v2)
 
 
 ### More Themes
