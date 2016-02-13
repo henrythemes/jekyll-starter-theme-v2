@@ -1,7 +1,7 @@
 ###########
 # site.title
 
-title:    'Planet Jekyll Starter Theme V2'
+title:    'Jekyll Starter Theme V2'
 subtitle: 'Another Static Site Quick Starter Theme'
 
 
@@ -11,7 +11,7 @@ subtitle: 'Another Static Site Quick Starter Theme'
 #    note: for root path use empty string e.g. '' - do NOT include trailing slash e.g. /
 
 path:  '/jekyll-starter-theme-v2'
-url:   'http://planetjekyll.github.io/jekyll-starter-theme-v2'
+url:   'http://henrythemes.github.io/jekyll-starter-theme-v2'
 
 
 nav:
@@ -19,7 +19,7 @@ nav:
 - { title: 'Page Two',             href: '/jekyll-starter-theme-v2/two.html' }
 - { title: 'Page Three',           href: '/jekyll-starter-theme-v2/three.html' }
 - { title: 'Questions? Comments?', href: 'http://groups.google.com/group/wwwmake' }
-- { title: 'About',                href: 'https://github.com/planetjekyll/jekyll-starter-theme-v2' }
+- { title: 'About',                href: 'https://github.com/henrythemes/jekyll-starter-theme-v2' }
 
 
 #########################
