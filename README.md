@@ -114,9 +114,9 @@ Instead of "hard-coding" the navigation menu e.g.:
 
 ``` html
 <div id="nav">
-  <a href="{{ site.path }}/index.html">Welcome</a>
-  <a href="{{ site.path }}/two.html">Page Two</a>
-  <a href="{{ site.path }}/three.html">Page Three</a>
+  <a href="{{ '/index.html' | relative_url }}">Welcome</a>
+  <a href="{{ '/two.html'   | relative_url }}">Page Two</a>
+  <a href="{{ '/three.html' | relative_url }}">Page Three</a>
   <a href="http://groups.google.com/group/wwwmake">Questions? Comments?</a>
   <a href="https://github.com/henrythemes/jekyll-starter-theme">About</a>
 </div>
@@ -126,12 +126,11 @@ Let's use a configuration / data block e.g.:
 
 ``` yaml
 nav:
-- { title: 'Welcome',              href: '/jekyll-starter-theme-v2/' }
-- { title: 'Page Two',             href: '/jekyll-starter-theme-v2/two.html' }
-- { title: 'Page Three',           href: '/jekyll-starter-theme-v2/three.html' }
+- { title: 'Welcome',              href: '/' }
+- { title: 'Page Two',             href: '/two.html' }
+- { title: 'Page Three',           href: '/three.html' }
 - { title: 'Questions? Comments?', href: 'http://groups.google.com/group/wwwmake' }
 - { title: 'About',                href: 'https://github.com/henrythemes/jekyll-starter-theme-v2' }
-
 ```
 
 And (auto-)build the navigation menu using a macro e.g.:
@@ -139,7 +138,7 @@ And (auto-)build the navigation menu using a macro e.g.:
 ``` html
 <div id="nav">
 {% for item in site.nav %}
-  <a href="{{ item.href}}">{{ item.title }}</a>
+  <a href="{{ item.href | relative_url }}">{{ item.title }}</a>
 {% endfor %}
 </div>
 ```
