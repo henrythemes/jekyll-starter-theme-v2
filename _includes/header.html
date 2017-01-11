@@ -7,7 +7,7 @@
 
 <div id="nav">
 {% for item in site.nav %}
-  {% if item.href contains 'http://' or contains 'https://' %}
+  {% if item.href contains 'http' %}
      <a href="{{ item.href }}">{{ item.title }}</a>
   {% else %}
      <a href="{{ item.href | relative_url }}">{{ item.title }}</a>
